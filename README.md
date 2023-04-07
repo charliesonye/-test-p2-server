@@ -1,24 +1,25 @@
-# README
+## P2-Server
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Contents
 
-Things you may want to cover:
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Link to client-side of this application](https://github.com/charliesonye/p2-project-client)
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+## Technologies
+The technologies used within this app:
+* Ruby Gems: SQLite3, Rails, Rack-Cors
 
-* Database initialization
+## Setup
+To run locally:
+```
+$ cd phase-2-server 
+$ bundle install
+$ bundle exec rails db:migrate
+$ bundle exec rails db:seed
+$ bundle exec rails server
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
